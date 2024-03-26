@@ -8,6 +8,7 @@ import { useUserStore } from "@/store/userStore";
 import { Button } from "@/components/Button";
 
 export default function Home() {
+  // use for push replace route page
   const Router = useRouter();
 
   // useState for collect state
