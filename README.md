@@ -25,13 +25,13 @@
 >&emsp;&emsp;&emsp;├── services/ <br/>
 >&emsp;&emsp;&ensp; └── libs/ <br/>
 
-> **app** - use for store page and route api
-> **components** - use for store re-used class components ex. button navbar text input
-> **contexts** - use for store state and function in provider keep track in many page
-> **store** - use for store many state and function in page !data lost when re-render!
-> **hooks** - use for store re-used function components ex. useFetch(), useClock()
-> **services** - use for store re-used api service components ex. userService, itemService
-> **libs** - use for store configuration and formatter library
+> **app** - use for store page and route api <br/>
+> **components** - use for store re-used class components ex. button navbar text input <br/>
+> **contexts** - use for store state and function in provider keep track in many page <br/>
+> **store** - use for store many state and function in page !data lost when re-render! <br/>
+> **hooks** - use for store re-used function components ex. useFetch(), useClock() <br/>
+> **services** - use for store re-used api service components ex. userService, itemService <br/>
+> **libs** - use for store configuration and formatter library <br/>
 
 ## Technologies
 Project is created with:
