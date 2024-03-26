@@ -1,7 +1,7 @@
 
 ### Next js 14 - starter kit  
 > Initial setup nextjs with necessary library for variants scenarios
-![npm-url](https://img.shields.io/bundlephobia/:format/:packageName)
+![npm-url](https://img.shields.io/bundlephobia/min/nextjs)
 
 
 ## Table of contents
