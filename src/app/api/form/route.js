@@ -1,4 +1,3 @@
-import { UserSchema } from "@/types";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 
@@ -11,7 +10,7 @@ const schema = z.object({
 export async function POST(request) {
   const body = await request.json();
 
-  const result = UserSchema.safeParse(body);
+  const result = schema.safeParse(body);
 
   if (result.success) {
     return NextResponse.json({ success: true });

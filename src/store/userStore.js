@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-// global use state management caution: store reset when re-rendering pages
+/** global use state management: (use for handle many state in one page) */
 export const useUserStore = create((set) => ({
   // variables
   likes: 0,
