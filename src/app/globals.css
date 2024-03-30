@@ -16,6 +16,13 @@
   }
 }
 
+@keyframes ripple-effect {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
